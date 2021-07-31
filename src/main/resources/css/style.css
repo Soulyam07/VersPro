@@ -1,0 +1,680 @@
+.mediaViewInfo {
+		--web-view-name: Sign up;
+		--web-view-id: Sign_up;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+:root {
+		--web-view-ids: Sign_up;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+#Sign_up {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Sign up;
+		--web-view-id: Sign_up;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Groupe_17 {
+		position: absolute;
+		width: 2649.961px;
+		height: 1453.659px;
+		left: -667px;
+		top: -89.659px;
+		overflow: visible;
+	}
+	#Groupe_1 {
+		position: absolute;
+		width: 742.882px;
+		height: 669.944px;
+		left: 1907.078px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Polygone_2 {
+		opacity: 0.75;
+		fill: rgba(254,7,49,1);
+	}
+	.Polygone_2 {
+		overflow: visible;
+		position: absolute;
+		width: 611.945px;
+		height: 692.182px;
+		transform: translate(-1240.078px, 89.659px) matrix(1,0,0,1,1305.5472,-100.7775) rotate(265deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_1 {
+		opacity: 0.75;
+		fill: rgba(249,199,0,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 798px;
+		height: 775px;
+		left: 238px;
+		top: 678.659px;
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 1765px;
+		height: 1008px;
+		left: 760px;
+		top: 140.659px;
+	}
+	#Groupe_2 {
+		position: absolute;
+		width: 878.577px;
+		height: 932.072px;
+		left: 653.786px;
+		top: 311.56px;
+		overflow: visible;
+	}
+	#Trac_1 {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Trac_1 {
+		overflow: visible;
+		position: absolute;
+		width: 378.214px;
+		height: 556.417px;
+		left: 0px;
+		top: 375.655px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygone_3 {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Polygone_3 {
+		overflow: visible;
+		position: absolute;
+		width: 66px;
+		height: 57px;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,580,237) rotate(230deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_3 {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_3 {
+		width: 36px;
+		height: 85px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,639,810) rotate(-47deg);
+		transform-origin: center;
+	}
+	#Polygone_4 {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Polygone_4 {
+		overflow: visible;
+		position: absolute;
+		width: 138px;
+		height: 255px;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,677,492) rotate(207deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_5 {
+		opacity: 0.8;
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 559px;
+		height: 101px;
+		left: 1686px;
+		top: 568.659px;
+	}
+	#Rectangle_6 {
+		opacity: 0.8;
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 559px;
+		height: 101px;
+		left: 1686px;
+		top: 689.659px;
+	}
+	#Rectangle_7 {
+		opacity: 0.8;
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 559px;
+		height: 101px;
+		left: 1686px;
+		top: 810.659px;
+	}
+	#Groupe_4 {
+		opacity: 0.51;
+		position: absolute;
+		width: 382px;
+		height: 91px;
+		left: 1775px;
+		top: 942.659px;
+		overflow: visible;
+		transition: all 0.6s ease-out;
+		--web-animation: fadein 0.6s ease-out;
+		--web-action-type: page;
+		--web-action-target: Sign_in___2.html;
+		cursor: pointer;
+	}
+	#Rectangle_8 {
+		fill: rgba(34,160,216,1);
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 382px;
+		height: 91px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sinscrire {
+		left: 110px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 164px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(245,245,245,1);
+	}
+	#Creer_un_compte {
+		left: 1708px;
+		top: 233.659px;
+		position: absolute;
+		overflow: visible;
+		width: 517px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 66px;
+		color: rgba(34,160,216,1);
+	}
+	#Groupe_3 {
+		position: absolute;
+		width: 302px;
+		height: 82px;
+		left: 1815px;
+		top: 341.659px;
+		overflow: visible;
+	}
+	#Ellipse_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		height: 82px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_3 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		height: 82px;
+		left: 109px;
+		top: 0px;
+	}
+	#Ellipse_4 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		height: 82px;
+		left: 218px;
+		top: 0px;
+	}
+	#Icon_awesome-facebook-f {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_awesome-facebook-f {
+		overflow: visible;
+		position: absolute;
+		width: 33.004px;
+		height: 47.107px;
+		left: 25.498px;
+		top: 17.447px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-google-plus-g {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_awesome-google-plus-g {
+		overflow: visible;
+		position: absolute;
+		width: 43.2px;
+		height: 47.107px;
+		left: 129.4px;
+		top: 17.447px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-linkedin-in {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_awesome-linkedin-in {
+		overflow: visible;
+		position: absolute;
+		width: 46.851px;
+		height: 39.303px;
+		left: 236.574px;
+		top: 21.349px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_15 {
+		position: absolute;
+		width: 667px;
+		height: 978px;
+		left: 760px;
+		top: 140.659px;
+		overflow: visible;
+	}
+	#Rectangle_13 {
+		opacity: 0.9;
+		fill: rgba(10,150,212,1);
+	}
+	.Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 667px;
+		height: 978px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_4 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 99px;
+		left: 149px;
+		top: 509px;
+		transition: all 0.6s ease-out;
+		--web-animation: fadein 0.6s ease-out;
+		--web-action-type: page;
+		--web-action-target: Sign_in___1.html;
+		cursor: pointer;
+	}
+	#Connexion {
+		left: 240px;
+		top: 532px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(245,245,245,1);
+	}
+	#Pour_rester_connect_avec_nous_ {
+		left: 131px;
+		top: 358px;
+		position: absolute;
+		overflow: visible;
+		width: 439px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#_Content_de_te_revoir {
+		left: 100px;
+		top: 166px;
+		position: absolute;
+		overflow: visible;
+		width: 501px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 53px;
+		color: rgba(255,255,255,1);
+	}
+	#ou_utilisez_votre_email_pour_v {
+		opacity: 0.79;
+		left: 1783px;
+		top: 485.659px;
+		position: absolute;
+		overflow: visible;
+		width: 366px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Icon_feather-mail {
+		position: absolute;
+		width: 50px;
+		height: 44px;
+		left: 1708px;
+		top: 718.659px;
+		overflow: visible;
+	}
+	#Trac_2 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_2 {
+		overflow: visible;
+		position: absolute;
+		width: 53px;
+		height: 47px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_3 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_3 {
+		overflow: visible;
+		position: absolute;
+		width: 53.928px;
+		height: 13.964px;
+		left: 0px;
+		top: 3px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-user {
+		position: absolute;
+		width: 37.043px;
+		height: 41.674px;
+		left: 1711px;
+		top: 598.659px;
+		overflow: visible;
+	}
+	#Trac_4 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_4 {
+		overflow: visible;
+		position: absolute;
+		width: 40.043px;
+		height: 16.891px;
+		left: 0px;
+		top: 27.782px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_5 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_5 {
+		overflow: visible;
+		position: absolute;
+		width: 21.522px;
+		height: 21.522px;
+		left: 9.261px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-md-key {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_ionic-md-key {
+		overflow: visible;
+		position: absolute;
+		width: 42.832px;
+		height: 29.616px;
+		left: 1715.168px;
+		top: 846.659px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_16 {
+		position: absolute;
+		width: 667px;
+		height: 978px;
+		left: 0px;
+		top: 139.659px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		opacity: 0.9;
+		fill: rgba(10,150,212,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 667px;
+		height: 978px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_4_bp {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4_bp {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 99px;
+		left: 149px;
+		top: 509px;
+	}
+	#Connexion_bq {
+		left: 240px;
+		top: 532px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(245,245,245,1);
+	}
+	#Pour_rester_connect_avec_nous__br {
+		left: 131px;
+		top: 358px;
+		position: absolute;
+		overflow: visible;
+		width: 439px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#_Content_de_te_revoir_bs {
+		left: 100px;
+		top: 166px;
+		position: absolute;
+		overflow: visible;
+		width: 501px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 53px;
+		color: rgba(255,255,255,1);
+	}
+	#Groupe_18 {
+		position: absolute;
+		width: 878.577px;
+		height: 932.072px;
+		left: -13.214px;
+		top: 221.901px;
+		overflow: visible;
+	}
+	#Trac_1_bu {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Trac_1_bu {
+		overflow: visible;
+		position: absolute;
+		width: 378.214px;
+		height: 556.417px;
+		left: 0px;
+		top: 375.655px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygone_3_bv {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Polygone_3_bv {
+		overflow: visible;
+		position: absolute;
+		width: 66px;
+		height: 57px;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,580,237) rotate(230deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_3_bw {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_3_bw {
+		width: 36px;
+		height: 85px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,639,810) rotate(-47deg);
+		transform-origin: center;
+	}
+	#Polygone_4_bx {
+		opacity: 0.1;
+		fill: rgba(228,228,228,1);
+	}
+	.Polygone_4_bx {
+		overflow: visible;
+		position: absolute;
+		width: 138px;
+		height: 255px;
+		transform: translate(13.214px, -221.901px) matrix(1,0,0,1,677,492) rotate(207deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}

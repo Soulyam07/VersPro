@@ -1,0 +1,3274 @@
+	.mediaViewInfo {
+		--web-view-name: Sign in – 4;
+		--web-view-id: Sign_in__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Sign_in__4;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Sign_in__4 {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(242,241,241,1);
+		overflow: hidden;
+		--web-view-name: Sign in – 4;
+		--web-view-id: Sign_in__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Groupe_1 {
+		position: absolute;
+		width: 742.882px;
+		height: 669.944px;
+		left: 1444.078px;
+		top: -194.972px;
+		overflow: visible;
+	}
+	#Polygone_2 {
+		opacity: 0.75;
+		fill: rgba(254,7,49,1);
+	}
+	.Polygone_2 {
+		overflow: visible;
+		position: absolute;
+		width: 611.945px;
+		height: 692.182px;
+		transform: translate(-1240.078px, 89.659px) matrix(1,0,0,1,1305.5472,-100.7775) rotate(265deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_1 {
+		opacity: 0.75;
+		fill: rgba(249,199,0,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 798px;
+		height: 775px;
+		left: -429px;
+		top: 589px;
+	}
+	#Groupe_5 {
+		position: absolute;
+		width: 1771px;
+		height: 1044px;
+		left: 75px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_1 {
+		filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 1801px;
+		height: 1074px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_16 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_16 {
+		position: absolute;
+		overflow: visible;
+		width: 385px;
+		height: 1044px;
+		left: 77px;
+		top: 18px;
+	}
+	#Rectangle_17 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(34,160,216,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 8px;
+		height: 76px;
+		left: 453px;
+		top: 174px;
+	}
+	#Rectangle_22_t {
+		fill: url(#Rectangle_22_t);
+	}
+	.Rectangle_22_t {
+		position: absolute;
+		overflow: visible;
+		width: 697px;
+		height: 212px;
+		left: 502px;
+		top: 204px;
+	}
+	#Rectangle_25 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_25 {
+		position: absolute;
+		overflow: visible;
+		width: 615px;
+		height: 858px;
+		left: 1231px;
+		top: 204px;
+	}
+	#Rectangle_26 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 331px;
+		height: 118px;
+		left: 502px;
+		top: 435px;
+	}
+	#Rectangle_27 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 331px;
+		height: 118px;
+		left: 865px;
+		top: 435px;
+	}
+	#Rectangle_29 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_29 {
+		position: absolute;
+		overflow: visible;
+		width: 697px;
+		height: 470px;
+		left: 502px;
+		top: 575px;
+	}
+	#Rectangle_31 {
+		fill: rgba(229,229,229,1);
+	}
+	.Rectangle_31 {
+		position: absolute;
+		overflow: visible;
+		width: 578px;
+		height: 470px;
+		left: 1254px;
+		top: 575px;
+	}
+	#IMG_1079 {
+		position: absolute;
+		width: 96px;
+		height: 88px;
+		left: 1654px;
+		top: 79px;
+		overflow: visible;
+	}
+	#Icon_metro-air {
+		fill: rgba(34,160,216,1);
+	}
+	.Icon_metro-air {
+		overflow: visible;
+		position: absolute;
+		width: 37.038px;
+		height: 27.164px;
+		left: 96.98px;
+		top: 205px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-project-diagram {
+		fill: rgba(34,160,216,1);
+	}
+	.Icon_awesome-project-diagram {
+		overflow: visible;
+		position: absolute;
+		width: 45px;
+		height: 36px;
+		left: 97px;
+		top: 297px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-users {
+		fill: rgba(34,160,216,1);
+	}
+	.Icon_awesome-users {
+		overflow: visible;
+		position: absolute;
+		width: 45px;
+		height: 31.5px;
+		left: 97px;
+		top: 395px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-calendar-alt {
+		fill: rgba(34,160,216,1);
+	}
+	.Icon_awesome-calendar-alt {
+		overflow: visible;
+		position: absolute;
+		width: 31.5px;
+		height: 36px;
+		left: 102.75px;
+		top: 489px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-tools {
+		fill: rgba(34,160,216,1);
+	}
+	.Icon_awesome-tools {
+		overflow: visible;
+		position: absolute;
+		width: 36.002px;
+		height: 36.004px;
+		left: 96.98px;
+		top: 585px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Dashboard {
+		left: 166px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Projets {
+		left: 166px;
+		top: 295px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Developpeur {
+		left: 166px;
+		top: 391px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Calendrier {
+		left: 166px;
+		top: 487px;
+		position: absolute;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Parametre {
+		left: 173px;
+		top: 583px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#JUILLET_2021 {
+		left: 1446px;
+		top: 224px;
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Union_2 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(14,18,75,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_2 {
+		overflow: visible;
+		position: absolute;
+		width: 17.428px;
+		height: 9.439px;
+		transform: matrix(1,0,0,1,1307.566,239.4947) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Union_3 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(14,18,75,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_3 {
+		overflow: visible;
+		position: absolute;
+		width: 17.428px;
+		height: 9.439px;
+		transform: matrix(1,0,0,1,1752.5659,239.4947) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Groupe_35 {
+		position: absolute;
+		width: 50px;
+		height: 33px;
+		left: 1283px;
+		top: 285px;
+		overflow: visible;
+	}
+	#LUN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_34 {
+		position: absolute;
+		width: 58px;
+		height: 33px;
+		left: 1356px;
+		top: 285px;
+		overflow: visible;
+	}
+	#MAR {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_33 {
+		position: absolute;
+		width: 54px;
+		height: 33px;
+		left: 1435px;
+		top: 285px;
+		overflow: visible;
+	}
+	#MER {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_32 {
+		position: absolute;
+		width: 42px;
+		height: 33px;
+		left: 1518px;
+		top: 285px;
+		overflow: visible;
+	}
+	#JEU {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_31 {
+		position: absolute;
+		width: 50px;
+		height: 33px;
+		left: 1591px;
+		top: 285px;
+		overflow: visible;
+	}
+	#VEN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_30 {
+		position: absolute;
+		width: 56px;
+		height: 33px;
+		left: 1665px;
+		top: 285px;
+		overflow: visible;
+	}
+	#SAM {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_29 {
+		position: absolute;
+		width: 50px;
+		height: 33px;
+		left: 1745px;
+		top: 285px;
+		overflow: visible;
+	}
+	#DIM {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(191,184,184,1);
+	}
+	#ID1 {
+		left: 1532px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID2 {
+		left: 1609px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID3 {
+		opacity: 0.5;
+		left: 1685px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID4 {
+		opacity: 0.5;
+		left: 1763px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID8 {
+		left: 1532px;
+		top: 378px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID15 {
+		left: 1526px;
+		top: 417px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID22 {
+		left: 1527px;
+		top: 460px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID29 {
+		left: 1527px;
+		top: 499px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID31 {
+		opacity: 0.5;
+		left: 1679px;
+		top: 500px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID30 {
+		left: 1603px;
+		top: 500px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID23 {
+		left: 1603px;
+		top: 460px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID24 {
+		opacity: 0.5;
+		left: 1680px;
+		top: 459px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID25 {
+		opacity: 0.5;
+		left: 1757px;
+		top: 461px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID26 {
+		left: 1294px;
+		top: 500px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID27 {
+		left: 1372px;
+		top: 500px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID28 {
+		left: 1449px;
+		top: 500px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID21 {
+		left: 1449px;
+		top: 461px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID14 {
+		left: 1449px;
+		top: 417px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID7 {
+		left: 1455px;
+		top: 378px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID6 {
+		left: 1378px;
+		top: 378px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID13 {
+		left: 1372px;
+		top: 417px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID20 {
+		left: 1372px;
+		top: 461px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID19 {
+		left: 1295px;
+		top: 461px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID18 {
+		opacity: 0.5;
+		left: 1754px;
+		top: 419px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID17 {
+		opacity: 0.5;
+		left: 1680px;
+		top: 419px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID16 {
+		left: 1603px;
+		top: 419px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID9 {
+		left: 1609px;
+		top: 377px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID10 {
+		opacity: 0.5;
+		left: 1680px;
+		top: 379px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID11 {
+		opacity: 0.5;
+		left: 1757px;
+		top: 379px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID12 {
+		left: 1295px;
+		top: 417px;
+		position: absolute;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#ID5 {
+		left: 1301px;
+		top: 378px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Union_4 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(14,18,75,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_4 {
+		overflow: visible;
+		position: absolute;
+		width: 18.892px;
+		height: 11.51px;
+		left: 1767.565px;
+		top: 118.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_49 {
+		position: absolute;
+		width: 524px;
+		height: 40px;
+		left: 1284px;
+		top: 593px;
+		overflow: visible;
+	}
+	#New_Developper {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 235px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#voir_plus {
+		left: 430px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 95px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+		text-decoration: underline;
+	}
+	#Groupe_45 {
+		position: absolute;
+		width: 515px;
+		height: 73px;
+		left: 1286px;
+		top: 669px;
+		overflow: visible;
+	}
+	#Groupe_44 {
+		position: absolute;
+		width: 290px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#photo-1624916889635-13b5e92c1b {
+		position: absolute;
+		width: 72px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_43 {
+		position: absolute;
+		width: 196px;
+		height: 57px;
+		left: 94px;
+		top: 2px;
+		overflow: visible;
+	}
+	#AKarim_Sarr {
+		left: 1px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Developpeur_frontend {
+		opacity: 0.5;
+		left: 0px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_42 {
+		position: absolute;
+		width: 97px;
+		height: 28px;
+		left: 418px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Groupe_41 {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 68px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_14 {
+		opacity: 0.7;
+		fill: rgba(81,192,204,1);
+	}
+	.Trac_14 {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-eye {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-eye {
+		overflow: visible;
+		position: absolute;
+		width: 20.25px;
+		height: 13.5px;
+		left: 3.875px;
+		top: 7.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_37 {
+		opacity: 0.7;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 34px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_40 {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_17 {
+		opacity: 0.7;
+		fill: rgba(73,242,112,1);
+	}
+	.Trac_17 {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-mail {
+		position: absolute;
+		width: 17.401px;
+		height: 14.002px;
+		left: 5.799px;
+		top: 6.999px;
+		overflow: visible;
+	}
+	#Trac_15 {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_15 {
+		overflow: visible;
+		position: absolute;
+		width: 17.401px;
+		height: 11.564px;
+		left: 0px;
+		top: 2.439px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_16 {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_16 {
+		overflow: visible;
+		position: absolute;
+		width: 15.707px;
+		height: 12.874px;
+		left: 0.851px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_38 {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_39 {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_18 {
+		opacity: 0.7;
+		fill: rgba(204,146,248,1);
+	}
+	.Trac_18 {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-user-minus {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-user-minus {
+		overflow: visible;
+		position: absolute;
+		width: 17.5px;
+		height: 14px;
+		left: 5.75px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_46 {
+		position: absolute;
+		width: 515px;
+		height: 73px;
+		left: 1286px;
+		top: 756px;
+		overflow: visible;
+	}
+	#Groupe_44_db {
+		position: absolute;
+		width: 289px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#photo-1614758098950-697b02a442 {
+		position: absolute;
+		width: 72px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_43_dd {
+		position: absolute;
+		width: 195px;
+		height: 56px;
+		left: 94px;
+		top: 3px;
+		overflow: visible;
+	}
+	#JMaurice_Diallo {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Developpeur_Backend {
+		opacity: 0.5;
+		left: 1px;
+		top: 29px;
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_42_dg {
+		position: absolute;
+		width: 97px;
+		height: 28px;
+		left: 418px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Groupe_41_dh {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 68px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_14_di {
+		opacity: 0.7;
+		fill: rgba(81,192,204,1);
+	}
+	.Trac_14_di {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-eye_dj {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-eye_dj {
+		overflow: visible;
+		position: absolute;
+		width: 20.25px;
+		height: 13.5px;
+		left: 3.875px;
+		top: 7.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_37_dk {
+		opacity: 0.7;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 34px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_40_dl {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_17_dm {
+		opacity: 0.7;
+		fill: rgba(73,242,112,1);
+	}
+	.Trac_17_dm {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-mail_dn {
+		position: absolute;
+		width: 17.401px;
+		height: 14.002px;
+		left: 5.799px;
+		top: 6.999px;
+		overflow: visible;
+	}
+	#Trac_15_do {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_15_do {
+		overflow: visible;
+		position: absolute;
+		width: 17.401px;
+		height: 11.564px;
+		left: 0px;
+		top: 2.439px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_16_dp {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_16_dp {
+		overflow: visible;
+		position: absolute;
+		width: 15.707px;
+		height: 12.874px;
+		left: 0.851px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_38_dq {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_39_dr {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_18_ds {
+		opacity: 0.7;
+		fill: rgba(204,146,248,1);
+	}
+	.Trac_18_ds {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-user-minus_dt {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-user-minus_dt {
+		overflow: visible;
+		position: absolute;
+		width: 17.5px;
+		height: 14px;
+		left: 5.75px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_47 {
+		position: absolute;
+		width: 509px;
+		height: 73px;
+		left: 1292px;
+		top: 842px;
+		overflow: visible;
+	}
+	#Groupe_44_dv {
+		position: absolute;
+		width: 287px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#photo-1584761682699-77eeb22819 {
+		position: absolute;
+		width: 72px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_43_dx {
+		position: absolute;
+		width: 198px;
+		height: 56px;
+		left: 89px;
+		top: 3px;
+		overflow: visible;
+	}
+	#CABamba_Gning {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Administrateur_BD {
+		opacity: 0.5;
+		left: 0px;
+		top: 29px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_42_d {
+		position: absolute;
+		width: 97px;
+		height: 28px;
+		left: 412px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Groupe_41_d {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 68px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_14_d {
+		opacity: 0.7;
+		fill: rgba(81,192,204,1);
+	}
+	.Trac_14_d {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-eye_d {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-eye_d {
+		overflow: visible;
+		position: absolute;
+		width: 20.25px;
+		height: 13.5px;
+		left: 3.875px;
+		top: 7.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_37_d {
+		opacity: 0.7;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 34px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_40_d {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_17_d {
+		opacity: 0.7;
+		fill: rgba(73,242,112,1);
+	}
+	.Trac_17_d {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-mail_d {
+		position: absolute;
+		width: 17.401px;
+		height: 14.002px;
+		left: 5.799px;
+		top: 6.999px;
+		overflow: visible;
+	}
+	#Trac_15_d {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_15_d {
+		overflow: visible;
+		position: absolute;
+		width: 17.401px;
+		height: 11.564px;
+		left: 0px;
+		top: 2.439px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_16_d {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_16_d {
+		overflow: visible;
+		position: absolute;
+		width: 15.707px;
+		height: 12.874px;
+		left: 0.851px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_38_ea {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_39_eb {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_18_ec {
+		opacity: 0.7;
+		fill: rgba(204,146,248,1);
+	}
+	.Trac_18_ec {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-user-minus_ed {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-user-minus_ed {
+		overflow: visible;
+		position: absolute;
+		width: 17.5px;
+		height: 14px;
+		left: 5.75px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_48 {
+		position: absolute;
+		width: 507px;
+		height: 74px;
+		left: 1294px;
+		top: 927px;
+		overflow: visible;
+	}
+	#Groupe_44_ef {
+		position: absolute;
+		width: 249px;
+		height: 74px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#fn {
+		position: absolute;
+		width: 72px;
+		height: 73px;
+		left: 0px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Groupe_43_eh {
+		position: absolute;
+		width: 163px;
+		height: 60px;
+		left: 86px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Fallou_Ndoye {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Administrateur_BD_ej {
+		opacity: 0.5;
+		left: 1px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_42_ek {
+		position: absolute;
+		width: 97px;
+		height: 28px;
+		left: 410px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Groupe_41_el {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 68px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_14_em {
+		opacity: 0.7;
+		fill: rgba(81,192,204,1);
+	}
+	.Trac_14_em {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-eye_en {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-eye_en {
+		overflow: visible;
+		position: absolute;
+		width: 20.25px;
+		height: 13.5px;
+		left: 3.875px;
+		top: 7.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_37_eo {
+		opacity: 0.7;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 34px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_40_ep {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_17_eq {
+		opacity: 0.7;
+		fill: rgba(73,242,112,1);
+	}
+	.Trac_17_eq {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-mail_er {
+		position: absolute;
+		width: 17.401px;
+		height: 14.002px;
+		left: 5.799px;
+		top: 6.999px;
+		overflow: visible;
+	}
+	#Trac_15_es {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_15_es {
+		overflow: visible;
+		position: absolute;
+		width: 17.401px;
+		height: 11.564px;
+		left: 0px;
+		top: 2.439px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_16_et {
+		fill: rgba(85,113,229,1);
+	}
+	.Trac_16_et {
+		overflow: visible;
+		position: absolute;
+		width: 15.707px;
+		height: 12.874px;
+		left: 0.851px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_38_eu {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_39_ev {
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_18_ew {
+		opacity: 0.7;
+		fill: rgba(204,146,248,1);
+	}
+	.Trac_18_ew {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-user-minus_ex {
+		fill: rgba(85,113,229,1);
+	}
+	.Icon_awesome-user-minus_ex {
+		overflow: visible;
+		position: absolute;
+		width: 17.5px;
+		height: 14px;
+		left: 5.75px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_50 {
+		position: absolute;
+		width: 226px;
+		height: 40px;
+		left: 533px;
+		top: 606px;
+		overflow: visible;
+	}
+	#Derniers_Projets {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_51 {
+		position: absolute;
+		width: 167px;
+		height: 40px;
+		left: 1005px;
+		top: 606px;
+		overflow: visible;
+	}
+	#Rectangle_32 {
+		fill: rgba(34,160,216,1);
+	}
+	.Rectangle_32 {
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Voir_plus_e {
+		left: 36px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Groupe_52 {
+		position: absolute;
+		width: 108px;
+		height: 27px;
+		left: 539px;
+		top: 679px;
+		overflow: visible;
+	}
+	#Nom_Projet {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_53 {
+		opacity: 0.5;
+		position: absolute;
+		width: 697px;
+		height: 48.926px;
+		left: 502.5px;
+		top: 668px;
+		overflow: visible;
+	}
+	#Ligne_1 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1 {
+		overflow: visible;
+		position: absolute;
+		width: 697px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2 {
+		overflow: visible;
+		position: absolute;
+		width: 697px;
+		height: 1px;
+		left: 0px;
+		top: 48.926px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_54 {
+		position: absolute;
+		width: 146px;
+		height: 27px;
+		left: 778px;
+		top: 679px;
+		overflow: visible;
+	}
+	#Nombre_de_dev {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_55 {
+		position: absolute;
+		width: 58px;
+		height: 27px;
+		left: 1029px;
+		top: 679px;
+		overflow: visible;
+	}
+	#Status {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_57 {
+		position: absolute;
+		width: 595px;
+		height: 34px;
+		left: 539px;
+		top: 729px;
+		overflow: visible;
+	}
+	#ID6_fd {
+		left: 306px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_56 {
+		position: absolute;
+		width: 595px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Terminer {
+		left: 503px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Ellipse_7 {
+		fill: rgba(32,233,92,1);
+	}
+	.Ellipse_7 {
+		position: absolute;
+		overflow: visible;
+		width: 11px;
+		height: 11px;
+		left: 489px;
+		top: 15px;
+	}
+	#Gestion_de_stock {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_58 {
+		position: absolute;
+		width: 590px;
+		height: 201px;
+		left: 542px;
+		top: 791px;
+		overflow: visible;
+	}
+	#ID5_fj {
+		left: 303px;
+		top: 1px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_56_fk {
+		position: absolute;
+		width: 104px;
+		height: 31px;
+		left: 486px;
+		top: 1px;
+		overflow: visible;
+	}
+	#En_cours {
+		left: 16px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Trac_19 {
+		fill: rgba(226,233,32,1);
+	}
+	.Trac_19 {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 11px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_62 {
+		position: absolute;
+		width: 220px;
+		height: 201px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Jeu_de_lutte {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Z-Quizz {
+		left: 0px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Creation_dune_alerte {
+		left: 0px;
+		top: 120px;
+		position: absolute;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Pointage_ {
+		left: 0px;
+		top: 170px;
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_59 {
+		position: absolute;
+		width: 336px;
+		height: 31px;
+		left: 844px;
+		top: 852px;
+		overflow: visible;
+	}
+	#ID4_ft {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_56_fu {
+		position: absolute;
+		width: 152px;
+		height: 31px;
+		left: 184px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Non_Debuter {
+		left: 16px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Trac_19_fw {
+		fill: rgba(233,39,32,1);
+	}
+	.Trac_19_fw {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 11px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_60 {
+		position: absolute;
+		width: 283px;
+		height: 31px;
+		left: 845px;
+		top: 912px;
+		overflow: visible;
+	}
+	#ID8_fy {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_56_fz {
+		position: absolute;
+		width: 100px;
+		height: 31px;
+		left: 183px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Debuter {
+		left: 16px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Trac_19_f {
+		fill: rgba(243,170,25,1);
+	}
+	.Trac_19_f {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 11px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_61 {
+		position: absolute;
+		width: 292px;
+		height: 31px;
+		left: 846px;
+		top: 962px;
+		overflow: visible;
+	}
+	#ID6_f {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_56_f {
+		position: absolute;
+		width: 109px;
+		height: 31px;
+		left: 183px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Terminer_f {
+		left: 17px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(14,18,75,1);
+	}
+	#Trac_19_ga {
+		fill: rgba(32,233,92,1);
+	}
+	.Trac_19_ga {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 11px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_69 {
+		position: absolute;
+		width: 158px;
+		height: 73px;
+		left: 522px;
+		top: 458px;
+		overflow: visible;
+	}
+	#Groupe_63 {
+		position: absolute;
+		width: 64px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID10_f {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_64 {
+		position: absolute;
+		width: 82px;
+		height: 33px;
+		left: 76px;
+		top: 15px;
+		overflow: visible;
+	}
+	#Projets_gb {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_65 {
+		position: absolute;
+		width: 80px;
+		height: 20px;
+		left: 76px;
+		top: 45px;
+		overflow: visible;
+	}
+	#ID1_Termines {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(191,184,184,1);
+	}
+	#Groupe_67 {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 724px;
+		top: 451px;
+		overflow: visible;
+	}
+	#Groupe_66 {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_8 {
+		opacity: 0.4;
+		fill: transparent;
+		stroke: rgba(34,160,216,1);
+		stroke-width: 7px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_8 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+	}
+	#Trac_20 {
+		fill: transparent;
+		stroke: rgba(34,160,216,1);
+		stroke-width: 7px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_20 {
+		overflow: visible;
+		position: absolute;
+		width: 18.958px;
+		height: 42.956px;
+		left: 73.042px;
+		top: 11.381px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID1_gi {
+		opacity: 0.5;
+		left: 27px;
+		top: 28px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(34,160,216,1);
+	}
+	#Groupe_68 {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 1080px;
+		top: 451px;
+		overflow: visible;
+	}
+	#Groupe_66_gk {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_8_gw {
+		fill: transparent;
+		stroke: rgba(216,34,107,1);
+		stroke-width: 7px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_8_gw {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+	}
+	#Groupe_70 {
+		position: absolute;
+		width: 166px;
+		height: 73px;
+		left: 876px;
+		top: 458px;
+		overflow: visible;
+	}
+	#Groupe_63_gn {
+		position: absolute;
+		width: 64px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID10_go {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_64_gp {
+		position: absolute;
+		width: 56px;
+		height: 33px;
+		left: 77px;
+		top: 13px;
+		overflow: visible;
+	}
+	#Devs {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(14,18,75,1);
+	}
+	#Groupe_65_gr {
+		position: absolute;
+		width: 86px;
+		height: 20px;
+		left: 80px;
+		top: 44px;
+		overflow: visible;
+	}
+	#ID10_en_service {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(191,184,184,1);
+	}
+	#Trac_21 {
+		fill: transparent;
+		stroke: rgba(34,160,216,1);
+		stroke-width: 7px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_21 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 1158.075px;
+		top: 463.381px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_71 {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 1080px;
+		top: 451px;
+		overflow: visible;
+	}
+	#Groupe_66_gv {
+		position: absolute;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_8_gw {
+		fill: transparent;
+		stroke: rgba(216,34,107,1);
+		stroke-width: 7px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_8_gw {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID10_gx {
+		opacity: 0.5;
+		left: 23px;
+		top: 28px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(216,34,107,1);
+	}
+	#Groupe_72 {
+		position: absolute;
+		width: 222px;
+		height: 40px;
+		left: 544px;
+		top: 238px;
+		overflow: visible;
+	}
+	#Hello_Soulyam_ {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#Groupe_73 {
+		position: absolute;
+		width: 374px;
+		height: 56px;
+		left: 543px;
+		top: 303px;
+		overflow: visible;
+	}
+	#Vous_avez_5_projets_en_cours_A {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(245,245,245,1);
+	}
+	#Icon_awesome-smile-wink {
+		fill: rgba(245,245,245,1);
+	}
+	.Icon_awesome-smile-wink {
+		overflow: visible;
+		position: absolute;
+		width: 19px;
+		height: 20.5px;
+		left: 225px;
+		top: 32px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Dashboard_g {
+		left: 503px;
+		top: 97px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(14,18,75,1);
+	}
+	#Group_1150 {
+		position: absolute;
+		width: 245.317px;
+		height: 247.247px;
+		left: 933.5px;
+		top: 170.311px;
+		overflow: visible;
+	}
+	#Path_2721 {
+		fill: rgba(95,143,183,1);
+	}
+	.Path_2721 {
+		overflow: visible;
+		position: absolute;
+		width: 47.109px;
+		height: 116.413px;
+		left: 64.902px;
+		top: 79.375px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2722 {
+		fill: rgba(211,162,157,1);
+	}
+	.Path_2722 {
+		overflow: visible;
+		position: absolute;
+		width: 40.811px;
+		height: 53.486px;
+		left: 136.882px;
+		top: 62.666px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2723 {
+		fill: rgba(238,204,140,1);
+	}
+	.Path_2723 {
+		overflow: visible;
+		position: absolute;
+		width: 102.128px;
+		height: 52.175px;
+		left: 103.608px;
+		top: 195.072px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2724 {
+		fill: rgba(238,204,140,1);
+	}
+	.Path_2724 {
+		overflow: visible;
+		position: absolute;
+		width: 10.998px;
+		height: 45.179px;
+		left: 148.304px;
+		top: 70.977px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2725 {
+		fill: rgba(95,143,183,1);
+	}
+	.Path_2725 {
+		overflow: visible;
+		position: absolute;
+		width: 113.809px;
+		height: 163.273px;
+		left: 97.724px;
+		top: 64.587px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2726 {
+		fill: rgba(163,99,97,1);
+	}
+	.Path_2726 {
+		overflow: visible;
+		position: absolute;
+		width: 32.901px;
+		height: 24.563px;
+		left: 140.091px;
+		top: 55.581px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2727 {
+		fill: rgba(234,139,87,1);
+	}
+	.Path_2727 {
+		overflow: visible;
+		position: absolute;
+		width: 26.804px;
+		height: 18.845px;
+		left: 60.421px;
+		top: 175.795px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_1145 {
+		position: absolute;
+		width: 132.459px;
+		height: 72.185px;
+		left: 0px;
+		top: 119.521px;
+		overflow: visible;
+	}
+	#Path_2728 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_2728 {
+		overflow: visible;
+		position: absolute;
+		width: 111.766px;
+		height: 27.854px;
+		left: 20.692px;
+		top: 43.3px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2729 {
+		fill: rgba(11,72,117,1);
+	}
+	.Path_2729 {
+		overflow: visible;
+		position: absolute;
+		width: 93.714px;
+		height: 72.185px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_1148 {
+		position: absolute;
+		width: 115.066px;
+		height: 115.87px;
+		left: 130.252px;
+		top: 79.579px;
+		overflow: visible;
+	}
+	#Group_1146 {
+		position: absolute;
+		width: 24.35px;
+		height: 36.569px;
+		left: 0px;
+		top: 79.301px;
+		overflow: visible;
+	}
+	#Path_2730 {
+		fill: rgba(12,83,188,1);
+	}
+	.Path_2730 {
+		overflow: visible;
+		position: absolute;
+		width: 23.445px;
+		height: 34.233px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2731 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_2731 {
+		overflow: visible;
+		position: absolute;
+		width: 3.206px;
+		height: 4.266px;
+		left: 21.144px;
+		top: 32.304px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2732 {
+		fill: rgba(253,182,136,1);
+	}
+	.Path_2732 {
+		overflow: visible;
+		position: absolute;
+		width: 68.994px;
+		height: 23.106px;
+		left: 8.992px;
+		top: 89.835px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_1147 {
+		position: absolute;
+		width: 17.084px;
+		height: 14.179px;
+		left: 12.857px;
+		top: 94.902px;
+		overflow: visible;
+	}
+	#Path_2733 {
+		fill: rgba(188,98,53,1);
+	}
+	.Path_2733 {
+		overflow: visible;
+		position: absolute;
+		width: 12.016px;
+		height: 3.677px;
+		left: 5.068px;
+		top: 10.502px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2734 {
+		fill: rgba(188,98,53,1);
+	}
+	.Path_2734 {
+		overflow: visible;
+		position: absolute;
+		width: 14.279px;
+		height: 8.001px;
+		left: -0.001px;
+		top: 5.528px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2735 {
+		fill: rgba(188,98,53,1);
+	}
+	.Path_2735 {
+		overflow: visible;
+		position: absolute;
+		width: 8.03px;
+		height: 2.338px;
+		left: 5.259px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2736 {
+		fill: rgba(211,162,157,1);
+	}
+	.Path_2736 {
+		overflow: visible;
+		position: absolute;
+		width: 10.88px;
+		height: 19.58px;
+		left: 47.532px;
+		top: 93.786px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2737 {
+		fill: rgba(95,143,183,1);
+	}
+	.Path_2737 {
+		overflow: visible;
+		position: absolute;
+		width: 61.274px;
+		height: 115.485px;
+		left: 53.791px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2738 {
+		fill: rgba(229,141,92,1);
+	}
+	.Path_2738 {
+		overflow: visible;
+		position: absolute;
+		width: 41.236px;
+		height: 35.257px;
+		left: 127.021px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2739 {
+		fill: rgba(253,182,136,1);
+	}
+	.Path_2739 {
+		overflow: visible;
+		position: absolute;
+		width: 39.855px;
+		height: 61.987px;
+		left: 129.45px;
+		top: 8.991px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2740 {
+		fill: rgba(234,139,87,1);
+	}
+	.Path_2740 {
+		overflow: visible;
+		position: absolute;
+		width: 3.066px;
+		height: 5.591px;
+		left: 158.471px;
+		top: 21.02px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_1149 {
+		position: absolute;
+		width: 37.269px;
+		height: 25.752px;
+		left: 129.216px;
+		top: 0.837px;
+		overflow: visible;
+	}
+	#Path_2741 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2741 {
+		overflow: visible;
+		position: absolute;
+		width: 7.106px;
+		height: 5.619px;
+		left: 15.897px;
+		top: 2.264px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2742 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2742 {
+		overflow: visible;
+		position: absolute;
+		width: 4.38px;
+		height: 9.885px;
+		left: 19.858px;
+		top: 9.01px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2743 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2743 {
+		overflow: visible;
+		position: absolute;
+		width: 5.53px;
+		height: 9.131px;
+		left: 21.532px;
+		top: 5.628px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2744 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2744 {
+		overflow: visible;
+		position: absolute;
+		width: 4.479px;
+		height: 8.447px;
+		left: 26.398px;
+		top: 7.813px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2745 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2745 {
+		overflow: visible;
+		position: absolute;
+		width: 9.259px;
+		height: 10.381px;
+		left: 25.835px;
+		top: 2.726px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2746 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2746 {
+		overflow: visible;
+		position: absolute;
+		width: 2.974px;
+		height: 6.803px;
+		left: 31.688px;
+		top: 11.04px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2747 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2747 {
+		overflow: visible;
+		position: absolute;
+		width: 1.901px;
+		height: 10.867px;
+		left: 35.367px;
+		top: 14.885px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2748 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2748 {
+		overflow: visible;
+		position: absolute;
+		width: 14.534px;
+		height: 5.655px;
+		left: 0px;
+		top: 5.404px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2749 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2749 {
+		overflow: visible;
+		position: absolute;
+		width: 4.797px;
+		height: 6.324px;
+		left: 2.865px;
+		top: 8.398px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2750 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2750 {
+		overflow: visible;
+		position: absolute;
+		width: 13.572px;
+		height: 3.587px;
+		left: 2.403px;
+		top: 1.815px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2751 {
+		fill: rgba(188,99,55,1);
+	}
+	.Path_2751 {
+		overflow: visible;
+		position: absolute;
+		width: 5.946px;
+		height: 2.867px;
+		left: 12.788px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-notifications-o {
+		position: absolute;
+		width: 23.476px;
+		height: 28.132px;
+		left: 1584.348px;
+		top: 109px;
+		overflow: visible;
+	}
+	#Trac_22 {
+		fill: rgba(0,0,0,1);
+	}
+	.Trac_22 {
+		overflow: visible;
+		position: absolute;
+		width: 6.583px;
+		height: 3.727px;
+		left: 8.426px;
+		top: 24.405px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_23 {
+		fill: rgba(0,0,0,1);
+	}
+	.Trac_23 {
+		overflow: visible;
+		position: absolute;
+		width: 23.477px;
+		height: 23.07px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-message-circle {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Icon_feather-message-circle {
+		overflow: visible;
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 1507px;
+		top: 109.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_74 {
+		position: absolute;
+		width: 82px;
+		height: 82px;
+		left: 93px;
+		top: 61px;
+		overflow: visible;
+	}
+	#Rectangle_33_ib {
+		fill: url(#Rectangle_33_ib);
+	}
+	.Rectangle_33_ib {
+		width: 57.983px;
+		height: 57.983px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-10236px, -1262.289px) matrix(1,0,0,1,10248.0087,1274.298) rotate(-45deg);
+		transform-origin: center;
+	}
+	# {
+		left: 16.044px;
+		top: 25.59px;
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(79,64,97,1);
+	}
+	#Versi {
+		left: 180px;
+		top: 71px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(14,18,75,1);
+	}
+	#OnN {
+		left: 272px;
+		top: 71px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(41,178,144,1);
+	}

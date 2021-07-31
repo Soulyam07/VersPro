@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="643.0" prefWidth="1136.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.versionning.ListeProjetController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="643.0" layoutX="-4.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="1144.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/Souleymane%20Diop/OneDrive/Images/model/ar11.png" />
+               </source></ImageInput>
+         </effect></Rectangle>
+      <Line endX="892.0" layoutX="212.0" layoutY="100.0" opacity="0.3" startX="-105.0" />
+      <FontAwesomeIconView glyphName="COMMENT" layoutX="932.0" layoutY="72.0" opacity="0.4" size="15" wrappingWidth="7.300000190734863" />
+      <FontAwesomeIconView glyphName="BELL" layoutX="971.0" layoutY="72.0" opacity="0.4" size="15" wrappingWidth="7.300000190734863" />
+      <FontAwesomeIconView glyphName="CHEVRON_DOWN" layoutX="1054.0" layoutY="72.0" opacity="0.4" size="15" wrappingWidth="7.300000190734863" />
+      <Label layoutX="333.0" layoutY="55.0" prefHeight="36.0" prefWidth="115.0" style="-fx-text-fill: #22A0D8;" text="New projets">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="122.0" prefHeight="45.0" prefWidth="122.0" style="-fx-text-fill: #22A0D8;" text="Projets">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="1020.0" layoutY="65.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: ffffff;" />
+      <TextField layoutX="333.0" layoutY="135.0" prefHeight="25.0" prefWidth="244.0" promptText="Rechercher un projet" style="-fx-border-radius: 30;" />
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="558.0" layoutY="153.0" opacity="0.4" size="15" wrappingWidth="7.300000190734863" />
+      <Label layoutX="885.0" layoutY="139.0" opacity="0.3" prefHeight="17.0" prefWidth="35.0" style="-fx-text-fill: #0E124B;" text="Show" />
+      <Label layoutX="918.0" layoutY="139.0" prefHeight="17.0" prefWidth="35.0" style="-fx-text-fill: #0E124B;" text="All" />
+      <FontAwesomeIconView glyphName="CHEVRON_DOWN" layoutX="938.0" layoutY="152.0" opacity="0.4" size="12" wrappingWidth="7.300000190734863" />
+      <FontAwesomeIconView glyphName="CALENDAR" layoutX="962.0" layoutY="152.0" opacity="0.4" size="12" wrappingWidth="7.300000190734863" />
+      <TableView layoutX="333.0" layoutY="201.0" opacity="0.7" prefHeight="371.0" prefWidth="738.0">
+         <columns>
+            <TableColumn prefWidth="52.0" text="id" />
+            <TableColumn prefWidth="105.0" text="libelle" />
+            <TableColumn prefWidth="100.0" text="Chef de projet" />
+            <TableColumn prefWidth="105.0" text="Date de creation" />
+            <TableColumn prefWidth="89.0" text="Date" />
+            <TableColumn prefWidth="79.0" text="Equipe" />
+            <TableColumn prefWidth="105.0" text="Chef d'equipe" />
+            <TableColumn prefWidth="191.0" text="Status" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="34.0" layoutY="130.0" onAction="#mHome" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="HOME" selectionFill="BLACK" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="34.0" layoutY="166.0" onAction="#mProjets" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="LIST" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="34.0" layoutY="202.0" onAction="#mDev" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="USERS" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="35.0" layoutY="238.0" onAction="#mTeam" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+         <graphic>
+            <FontAwesomeIconView fill="#fffefe" glyphName="CALENDAR" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="226.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <Label fx:id="nbDev1" alignment="BOTTOM_LEFT" layoutX="194.0" layoutY="226.0" text="1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="249.0" style="-fx-text-fill: #BFB8B8;" text="Termine(s)" />
+      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="177.0" layoutY="176.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <Label fx:id="nbDev11" alignment="BOTTOM_LEFT" layoutX="188.0" layoutY="176.0" text="10">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="199.0" style="-fx-text-fill: #BFB8B8;" text="Projets" />
+      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="276.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <Label fx:id="nbDev12" alignment="BOTTOM_LEFT" layoutX="192.0" layoutY="274.0" text="5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="299.0" style="-fx-text-fill: #BFB8B8;" text="En cours" />
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="455.0" layoutY="59.0" minWidth="44.0" onAction="#mHome" prefHeight="30.0" prefWidth="44.0" style="-fx-background-color: #22A0D8;">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="PLUS" selectionFill="BLACK" size="20" />
+         </graphic>
+      </JFXButton>
+
+
+   </children>
+</AnchorPane>
