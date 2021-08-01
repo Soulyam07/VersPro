@@ -65,36 +65,36 @@
             <FontAwesomeIconView fill="WHITE" glyphName="HOME" selectionFill="BLACK" size="20" />
          </graphic>
       </JFXButton>
-      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="34.0" layoutY="166.0" onAction="#mProjets" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+      <JFXButton contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="34.0" layoutY="166.0" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
          <graphic>
             <FontAwesomeIconView fill="WHITE" glyphName="LIST" size="20" />
          </graphic>
       </JFXButton>
-      <JFXButton contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="34.0" layoutY="202.0" onAction="#mDev" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="34.0" layoutY="202.0" onAction="#mDev" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
          <graphic>
             <FontAwesomeIconView fill="WHITE" glyphName="USERS" size="20" />
          </graphic>
       </JFXButton>
-      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="35.0" layoutY="238.0" onAction="#mTeam" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="35.0" layoutY="238.0" onAction="#mCld" prefHeight="36.0" prefWidth="71.0" style="-fx-background-color: #22A0D8;">
          <graphic>
             <FontAwesomeIconView fill="#fffefe" glyphName="CALENDAR" size="20" />
          </graphic>
       </JFXButton>
-      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="226.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <JFXButton fx:id="OvPro" alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="226.0" onAction="#handleClick" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
       <Label fx:id="nbDev1" alignment="BOTTOM_LEFT" layoutX="194.0" layoutY="226.0" text="1">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
       <Label layoutX="189.0" layoutY="249.0" style="-fx-text-fill: #BFB8B8;" text="Termine(s)" />
-      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="177.0" layoutY="176.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <JFXButton fx:id="pro" alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="177.0" layoutY="176.0" onAction="#handleClick" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
       <Label fx:id="nbDev11" alignment="BOTTOM_LEFT" layoutX="188.0" layoutY="176.0" text="10">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
       <Label layoutX="189.0" layoutY="199.0" style="-fx-text-fill: #BFB8B8;" text="Projets" />
-      <JFXButton alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="276.0" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
+      <JFXButton fx:id="EnPro" alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="177.0" layoutY="276.0" onAction="#handleClick" prefHeight="49.0" prefWidth="130.0" style="-fx-background-color: ffffff; -fx-text-fill: #BFB8B8;" />
       <Label fx:id="nbDev12" alignment="BOTTOM_LEFT" layoutX="192.0" layoutY="274.0" text="5">
          <font>
             <Font name="System Bold" size="20.0" />
