@@ -3,6 +3,7 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.ImageInput?>
 <?import javafx.scene.image.Image?>
@@ -57,7 +58,6 @@
          </font>
       </JFXButton>
       <TextField layoutX="242.0" layoutY="297.0" prefHeight="36.0" prefWidth="232.0" promptText="Email ou username" />
-      <TextField fx:id="Pwd1" layoutX="242.0" layoutY="358.0" prefHeight="36.0" prefWidth="232.0" promptText="Password" />
       <Label layoutX="257.0" layoutY="126.0" prefHeight="51.0" prefWidth="191.0" text="Connexion" textFill="#11b7cd">
          <font>
             <Font name="System Bold" size="35.0" />
@@ -92,6 +92,7 @@
          </font>
       </JFXButton>
       <Hyperlink layoutX="299.0" layoutY="411.0" text="Mot de passe oublie ?" />
+      <PasswordField fx:id="Pwd" layoutX="244.0" layoutY="359.0" prefHeight="36.0" prefWidth="232.0" promptText="Password" />
     </children>
 
 </AnchorPane>

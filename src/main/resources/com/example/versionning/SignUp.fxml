@@ -2,6 +2,7 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.ImageInput?>
 <?import javafx.scene.image.Image?>
@@ -22,9 +23,8 @@
                </source>
             </ImageInput>
          </effect></Rectangle>
-        <TextField fx:id="Name" layoutX="660.0" layoutY="255.0" prefHeight="28.0" prefWidth="232.0" promptText="Nom complet" style="-fx-position-shape: absolute;" />
-        <TextField fx:id="mail" layoutX="660.0" layoutY="311.0" prefHeight="28.0" prefWidth="232.0" promptText="Email" />
-        <TextField fx:id="Pwd" layoutX="660.0" layoutY="368.0" prefHeight="28.0" prefWidth="232.0" promptText="Password" />
+        <TextField fx:id="Name" layoutX="660.0" layoutY="241.0" prefHeight="42.0" prefWidth="232.0" promptText="Nom complet" style="-fx-position-shape: absolute;" />
+        <TextField fx:id="mail" layoutX="660.0" layoutY="297.0" prefHeight="42.0" prefWidth="232.0" promptText="Email" />
         <Label layoutX="619.0" layoutY="81.0" prefHeight="51.0" prefWidth="289.0" text="Creer un compte" textFill="#11b7cd">
             <font>
                 <Font name="System Bold" size="35.0" />
@@ -87,5 +87,6 @@
          </font>
       </JFXButton>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="22.0" layoutX="58.0" layoutY="436.0" opacity="0.1" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #E4E4E4; -fx-stroke: #707070;" width="69.0" />
+      <PasswordField fx:id="Pwd" layoutX="660.0" layoutY="359.0" prefHeight="42.0" prefWidth="232.0" promptText="Mot de passe" />
     </children>
 </AnchorPane>
