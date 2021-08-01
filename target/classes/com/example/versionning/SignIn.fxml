@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.ImageInput?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -14,84 +14,84 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.versionning.SignInController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.versionning.AuthentificationController">
 
 
     <children>
-        <Rectangle id="Groupe_15" arcHeight="5.0" arcWidth="5.0" fill="#0a96d4" height="364.0" layoutX="343.0" layoutY="18.0" stroke="TRANSPARENT" strokeType="INSIDE" width="232.0" />
-        <Button blendMode="LIGHTEN" layoutX="404.0" layoutY="231.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="34.0" prefWidth="101.0" styleClass="Rectangle_4" text="S'inscrire" textFill="#0a96d4" textOverrun="CENTER_ELLIPSIS">
-            <opaqueInsets>
-                <Insets />
-            </opaqueInsets>
-            <effect>
-                <DropShadow />
-            </effect>
-        </Button>
-        <Label layoutX="364.0" layoutY="91.0" prefHeight="30.0" prefWidth="205.0" text="Bonjour , Mon amie" textFill="WHITE">
-            <font>
-                <Font name="System Bold" size="20.0" />
-            </font>
-        </Label>
-        <Label layoutX="381.0" layoutY="120.0" prefHeight="22.0" prefWidth="181.0" text="Entrez vos données personnelle" textFill="#fffdfd">
-            <font>
-                <Font size="10.0" />
-            </font>
-        </Label>
-        <Label layoutX="377.0" layoutY="137.0" text="et commence la journée avec nous" textFill="#fffdfd">
-            <font>
-                <Font size="10.0" />
-            </font>
-        </Label>
+        <Rectangle id="Groupe_15" arcHeight="5.0" arcWidth="5.0" fill="#0a96d4" height="640.0" layoutY="1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1134.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/Souleymane%20Diop/OneDrive/Images/model/ar3.png" />
+               </source>
+            </ImageInput>
+         </effect></Rectangle>
         <Label layoutX="104.0" layoutY="158.0" text="personnel" textFill="#fffdfd">
             <font>
                 <Font size="10.0" />
             </font>
         </Label>
-        <Circle fill="DODGERBLUE" layoutX="497.0" layoutY="49.0" opacity="0.1" radius="8.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="13.0" layoutX="363.0" layoutY="337.0" opacity="0.1" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #E4E4E4; -fx-stroke: #707070;" width="30.0" />
-        <Polygon fill="DODGERBLUE" layoutX="539.0" layoutY="303.0" opacity="0.1" points="-50.0, 40.0, 19.0, 11.0, -5.0, -20.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #E4E4E4; -fx-stroke: #707070;" />
-        <TextField fx:id="mail" layoutX="64.0" layoutY="169.0" prefHeight="28.0" prefWidth="232.0" promptText="Email" />
-        <TextField fx:id="Pwd" layoutX="65.0" layoutY="211.0" prefHeight="28.0" prefWidth="232.0" promptText="Password" />
-        <Label layoutX="111.0" layoutY="52.0" prefHeight="36.0" prefWidth="139.0" text="Connexion" textFill="#11b7cd">
-            <font>
-                <Font name="System Bold" size="25.0" />
-            </font>
-        </Label>
-        <Label layoutX="92.0" layoutY="136.0" style="-fx-opacity: 0.79;" text="ou utilisez votre email pour vous inscrire">
-            <font>
-                <Font name="Segoe UI" size="10.0" />
-            </font>
-        </Label>
-        <Button layoutX="129.0" layoutY="298.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="30.0" prefWidth="88.0" text="Connexion">
-            <font>
-                <Font name="System Bold" size="12.0" />
-            </font>
-        </Button>
-        <Label layoutX="120.0" layoutY="258.0" prefHeight="15.0" prefWidth="121.0" style="-fx-opacity: 0.79;" text="Mot de passe oublie ?">
-            <font>
-                <Font name="Segoe UI" size="12.0" />
-            </font>
-        </Label>
-        <Line endX="71.0" endY="-6.0" layoutX="142.0" layoutY="283.0" opacity="0.3" startX="-7.0" startY="-6.0" />
-        <Circle fill="DODGERBLUE" layoutX="131.0" layoutY="107.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
-        <Circle fill="DODGERBLUE" layoutX="177.0" layoutY="106.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
-        <Circle fill="DODGERBLUE" layoutX="219.0" layoutY="106.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
-        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="120.0" layoutY="96.0">
-            <image>
-                <Image url="@../../../images/f.png" />
-
-            </image>
-        </ImageView>
-        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="208.0" layoutY="96.0">
-            <image>
-                <Image url="@../../../images/merge-git.png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="166.0" layoutY="96.0">
-            <image>
-                <Image url="@../../../images/linkedin--v1.png" />
-            </image>
-        </ImageView>
+        <Circle fill="DODGERBLUE" layoutX="1030.0" layoutY="96.0" opacity="0.1" radius="18.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="22.0" layoutX="790.0" layoutY="474.0" opacity="0.1" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #E4E4E4; -fx-stroke: #707070;" width="66.0" />
+        <Polygon fill="DODGERBLUE" layoutX="1027.0" layoutY="505.0" opacity="0.1" points="-77.0, 67.0, 46.0, 48.0, -5.0, -20.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #E4E4E4; -fx-stroke: #707070;" />
+        <Line endX="71.0" endY="-6.0" layoutX="326.0" layoutY="444.0" opacity="0.3" startX="-7.0" startY="-6.0" />
+      <Circle fill="DODGERBLUE" layoutX="722.0" layoutY="107.0" opacity="0.1" radius="22.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
+      <Label layoutX="819.0" layoutY="210.0" prefHeight="58.0" prefWidth="232.0" text="Bonjour,guys !" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="808.0" layoutY="276.0" prefHeight="30.0" prefWidth="271.0" text="Entrez vos donnees personnelles et" textFill="#fffdfd">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="819.0" layoutY="305.0" text="commence la journee avec nous" textFill="#fffdfd">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton focusTraversable="false" layoutX="827.0" layoutY="371.0" onAction="#btnSignUp" prefHeight="51.0" prefWidth="191.0" style="-fx-text-fill: ffffff; -fx-border-color: ffffff; -fx-border-radius: 50;" text="S'inscrire">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <TextField layoutX="242.0" layoutY="297.0" prefHeight="36.0" prefWidth="232.0" promptText="Email ou username" />
+      <TextField fx:id="Pwd1" layoutX="242.0" layoutY="358.0" prefHeight="36.0" prefWidth="232.0" promptText="Password" />
+      <Label layoutX="257.0" layoutY="126.0" prefHeight="51.0" prefWidth="191.0" text="Connexion" textFill="#11b7cd">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="242.0" style="-fx-opacity: 0.79;" text="ou utilisez votre email pour vous connectez" textFill="#9a9999">
+         <font>
+            <Font name="Segoe UI" size="10.0" />
+         </font>
+      </Label>
+      <Circle accessibleRole="BUTTON" fill="DODGERBLUE" layoutX="405.0" layoutY="198.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
+      <Circle accessibleRole="BUTTON" fill="DODGERBLUE" layoutX="351.0" layoutY="198.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
+      <Circle accessibleRole="BUTTON" fill="DODGERBLUE" layoutX="292.0" layoutY="198.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FFFFFF; -fx-stroke: #707070; -fx-stroke-width: 1px; -fx-stroke-line-join: miter; -fx-stroke-line-cap: butt; -fx-stroke-miter-limit: 4;" />
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="281.0" layoutY="187.0">
+         <image>
+            <Image url="@../../../images/f.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="340.0" layoutY="187.0">
+         <image>
+            <Image url="@../../../images/linkedin--v1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="394.0" layoutY="187.0">
+         <image>
+            <Image url="@../../../images/merge-git.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="280.0" layoutY="471.0" onAction="#handleSubmit" prefHeight="46.0" prefWidth="163.0" style="-fx-border-color: #11b7cd; -fx-border-radius: 50; -fx-text-fill: #11b7cd;" text="Connexion">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <Hyperlink layoutX="299.0" layoutY="411.0" text="Mot de passe oublie ?" />
     </children>
 
 </AnchorPane>

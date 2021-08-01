@@ -8,8 +8,8 @@ public class AdminEntity {
     private int isConnected;
 
     public AdminEntity(String pseudo, String password) {
-        this.pseudo = pseudo;
-        this.password = password;
+        this.pseudo = "soulyam";
+        this.password = "passer123";
     }
 
     public int getId() {

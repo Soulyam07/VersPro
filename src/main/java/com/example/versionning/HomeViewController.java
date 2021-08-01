@@ -2,9 +2,15 @@ package com.example.versionning;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Hyperlink;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
+
+import java.io.IOException;
+
+import static com.example.versionning.HelloApplication.getPrimaryStage;
 
 public class HomeViewController {
 
@@ -15,46 +21,71 @@ public class HomeViewController {
     private TableView<?> TbProjets;
 
     @FXML
-    private Hyperlink Mprs;
-
-    @FXML
-    private Hyperlink Mdev;
-
-    @FXML
     private Label nbPro;
 
     @FXML
     private Label login;
 
     @FXML
-    void Mcld(ActionEvent event) {
+    void btnDev(ActionEvent event) {
+
+
 
     }
 
     @FXML
-    void Mdev(ActionEvent event) {
+    void btnPro(ActionEvent event) {
 
     }
 
     @FXML
-    void Mhome(ActionEvent event){
+    void mDev(ActionEvent event) {
+        getPrimaryStage().close();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("devs/listDev-view.fxml"));
+            Scene scene = new Scene(root);
+            getPrimaryStage().setScene(scene);
+            getPrimaryStage().show();
+            getPrimaryStage().setTitle("Liste des developpeurs");
+
+        }
+        catch (IOException e) {
+            System.out.println("impossible d'afficher la fenetre");
+        }
 
     }
 
     @FXML
-    void Mlg(ActionEvent event) {
+    void mProjets(ActionEvent event) {
 
+        getPrimaryStage().close();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("projets/listProjet-view.fxml"));
+            Scene scene = new Scene(root);
+            getPrimaryStage().setScene(scene);
+            getPrimaryStage().show();
+            getPrimaryStage().setTitle("Liste des projets");
+
+        }
+        catch (IOException e) {
+            System.out.println("impossible d'afficher la fenetre");
+        }
     }
 
     @FXML
-    void Mpre(ActionEvent event) {
+    void mCld(ActionEvent event) {
+        getPrimaryStage().close();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("cald-view.fxml"));
+            Scene scene = new Scene(root);
+            getPrimaryStage().setScene(scene);
+            getPrimaryStage().show();
+            getPrimaryStage().setTitle("Calendrier des projets");
 
-    }
-
-    @FXML
-    void Mprs(ActionEvent event) {
-
+        }
+        catch (IOException e) {
+            System.out.println("impossible d'afficher la fenetre");
+        }
     }
 
 }
-
